@@ -1,0 +1,39 @@
+.bio_sec {
+  /* position: relative;
+  bottom: 20px; */
+  /* width: 100%; */
+  background-color: brown;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+  padding: 50px 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.bio_sec_left {
+  color: #fff;
+  font-size: 20px;
+}
+.bio_sec_left > h2 {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.bio_sec_right {
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 100%;
+  color: #fff;
+  padding-left: 30px;
+  background-color: #123451;
+  font-size: larger;
+  line-height: 1.5em;
+  display: flex;
+  height: 500px;
+  margin-right: 160px;
+}
+.skills {
+  margin-left: 100px;
+}
