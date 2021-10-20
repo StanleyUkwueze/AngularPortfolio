@@ -9,6 +9,8 @@ import { Section3Component } from './components/section3/section3.component';
 import { FormComponent } from './components/form/form.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import {UserService} from './services/user.service';
 
 @NgModule({
   declarations: [
@@ -19,8 +21,8 @@ import { MaterialModule } from './material/material.module';
     Section3Component,
     FormComponent,
   ],
-  imports: [BrowserModule, NoopAnimationsModule, MaterialModule],
-  providers: [],
+  imports: [BrowserModule, NoopAnimationsModule, MaterialModule,HttpClientModule],
+  providers: [UserService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
